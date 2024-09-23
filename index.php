@@ -1,5 +1,4 @@
 <?php
-// index.php
 
 header("Content-Type: application/json; charset=UTF-8");
 require 'config.php';
@@ -24,7 +23,6 @@ if ($method == 'OPTIONS') {
 
 $pdo = DB::getInstance();
 
-// Простая маршрутизация
 if ($pathParts[0] !== 'users') {
     http_response_code(404);
     echo json_encode(['error' => 'Not Found']);
