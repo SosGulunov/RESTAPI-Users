@@ -94,9 +94,9 @@ CREATE TABLE `users` (
   
 {
   "first_name": "Иван",
-  "second_name": "Петров",
-  "email": "ivan.petrov@example.com",
-  "password": "newsecurepassword"
+  "second_name": "Ростов",
+  "email": "ivan.rostov@gmail.com",
+  "password": "newpassword"
 }
 
 При успешном запросе: 
