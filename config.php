@@ -1,5 +1,5 @@
 <?php
-// config.php
+
 
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'rest_api_test');
